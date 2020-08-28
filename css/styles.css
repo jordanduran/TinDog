@@ -22,6 +22,7 @@ h3 {
 
 .container-fluid {
   padding: 3% 15%;
+  overflow: hidden;
 }
 
 /* Navigation Bar */
@@ -56,7 +57,9 @@ h3 {
 .title-image {
   width: 60%;
   transform: rotate(25deg);
-  overflow: hidden;
+  position: relative;
+  top: 12%;
+  left: 3.5rem;
 }
 
 /* Features Section */
